@@ -1,5 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  AfterViewChecked
+} from '@angular/core';
 import { PostService } from '../post.service';
+import { PrismService } from '../prism.service';
 
 @Component({
   selector: 'posts-list',
@@ -8,8 +13,12 @@ import { PostService } from '../post.service';
 })
 export class PostsListComponent implements OnInit {
   public posts;
+  highlighted: boolean = false;
 
-  constructor(private _postsService: PostService) {}
+  constructor(
+    private _postsService: PostService,
+    private _prismService: PrismService
+  ) {}
 
   ngOnInit() {
     this.getPosts();
@@ -23,5 +32,15 @@ export class PostsListComponent implements OnInit {
       err => console.error(err),
       () => console.log(this.posts)
     );
+  }
+
+  /**
+   * Highlight blog post when it's ready
+   */
+  ngAfterViewChecked() {
+    if (!this.highlighted) {
+      this._prismService.highlightAll();
+      this.highlighted = true;
+    }
   }
 }

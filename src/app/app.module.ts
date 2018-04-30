@@ -7,11 +7,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { PostService } from './post.service';
 import { PostsListComponent } from './posts-list/posts-list.component';
 import { SafePipe } from './safe.pipe';
+import { PrismService } from './prism.service';
 
 @NgModule({
   declarations: [AppComponent, PostsListComponent, SafePipe],
   imports: [BrowserModule, HttpClientModule],
-  providers: [PostService],
+  providers: [PostService, PrismService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
