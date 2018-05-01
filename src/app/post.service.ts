@@ -15,7 +15,11 @@ export class PostService {
 
   constructor(private http: HttpClient) {}
 
-  getPosts() {
-    return this.http.get(this.postsUrl);
+  getPosts<T>() {
+    return this.http.get<T>(this.postsUrl);
+  }
+
+  getPost<T>(id: number) {
+    return this.http.get(`${this.postsUrl}/id`);
   }
 }
