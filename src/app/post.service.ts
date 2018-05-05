@@ -20,6 +20,6 @@ export class PostService {
   }
 
   getPost<T>(id: number) {
-    return this.http.get(`${this.postsUrl}/id`);
+    return this.http.get(`${this.postsUrl}/${id}`);
   }
 }
