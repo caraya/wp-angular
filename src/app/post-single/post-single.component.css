@@ -1,0 +1,12 @@
+.post {
+  width: 80%;
+  margin: 1em auto;
+  padding: 1em 0;
+  border: 2px solid rebeccapurple;
+  border-radius: 5px;
+}
+
+.content {
+  margin: 2em;
+}
+

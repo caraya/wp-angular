@@ -16,10 +16,12 @@ export class PostService {
   constructor(private http: HttpClient) {}
 
   getPosts<T>() {
-    return this.http.get<T>(this.postsUrl);
+    return this.http.get(this.postsUrl + '?_embed');
   }
 
-  getPost<T>(id: number) {
-    return this.http.get(`${this.postsUrl}/${id}`);
+
+
+  getPost<T>(slug: any) {
+    return this.http.get(`${this.postsUrl}/${slug}?_embed`);
   }
 }

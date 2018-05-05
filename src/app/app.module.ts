@@ -13,21 +13,20 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { SafePipe } from './safe.pipe';
 // Services
 import { PostService } from './post.service';
+import { PostsLatestComponent } from './posts-latest/posts-latest.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PostsListComponent,
     PostSingleComponent,
+    PostsLatestComponent,
     NotFoundComponent,
-    SafePipe
+    SafePipe,
   ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [PostService],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+}

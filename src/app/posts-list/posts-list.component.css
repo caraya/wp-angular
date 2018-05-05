@@ -9,3 +9,7 @@
 .content {
   margin: 2em;
 }
+
+p.link-more {
+  display: none;
+}
