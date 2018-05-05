@@ -1,0 +1,127 @@
+{
+	id: Number,
+	date: String,
+	date_gmt: String,
+	guid: {
+		rendered: String
+	},
+	modified: String,
+	modified_gmt: String,
+	slug: String,
+	status: String,
+	type: String,
+	link: String,
+	title: {
+		rendered: String
+	},
+	content: {
+		rendered: String,
+		protected: Boolean
+	},
+	excerpt: {
+		rendered: String,
+		protected: Boolean
+	},
+	featured_media: Number,
+	comment_status: String,
+	ping_status: String,
+	sticky: Boolean,
+	template: String,
+	format: String,
+	meta: {
+		amp_status: String
+	},
+	categories: String[],
+	tags: String[],
+	_embedded: {
+		author: [{
+			id: Number,
+			name: String,
+			url: String,
+			description: String,
+			link: String,
+			slug: carlos,
+			avatar_urls: {
+				24: String,
+				48: String,
+				96: String
+			},
+		}],
+		wp:featuredmedia: [{
+			id: Number,
+			date: String,
+			slug: String,
+			type: String,
+			link: String,
+			alt_text: String,
+			media_type: String,
+			mime_type: String,
+			media_details: {
+				width: Number,
+				height: Number,
+				file: String,
+				sizes: {
+					thumbnail: {
+						file: String,
+						width: Number,
+						height: Number,
+						mime_type: String,
+						source_url: String
+					},
+					medium: {
+						file: String,
+						width: Number,
+						height: Number,
+						mime_type: String,
+						source_url: String
+					},
+					medium_large: {
+						file: String,
+						width: Number,
+						height: Number,
+						mime_type: String,
+						source_url: String
+					},
+					large: {
+						file: String,
+						width: Number,
+						height: Number,
+						mime_type: String,
+						source_url: String
+					},
+					post-thumbnail: {
+						file: String,
+						width: Number,
+						height: Number,
+						mime_type: String,
+						source_url: String
+					},
+					featured-post-image: {
+						file: String,
+						width: Number,
+						height: Number,
+						mime_type: String,
+						source_url: String
+					},
+					full: {
+						file: String,
+						width: Number,
+						height: Number,
+						mime_type: String,
+						source_url: String
+					}
+				}
+			},
+			source_url: String,
+		}],
+		wp:term: [
+			[{
+				id: Number,
+				link: String,
+				name: String,
+				slug: String,
+				taxonomy: String,
+			}]
+		]
+	}
+}

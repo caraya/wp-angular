@@ -1,6 +1,9 @@
 <div class="wrapper">
   <article class="post" *ngFor="let post of posts">
-    <h1>{{post.title.rendered}}</h1>
+    <header>
+      <h1><a href="posts/{{post.id}}">{{post.title.rendered}}</a></h1>
+      <p><strong>By {{post._embedded.author[0].name}} on {{post.date | date}}</strong></p>
+    </header>
 
     <section class="content" [innerHTML]="post.content.rendered | safe: 'html'"></section>
 

@@ -47,7 +47,7 @@ import 'prismjs/components/prism-python';
 import 'prismjs/components/prism-jsx';
 import 'prismjs/components/prism-yaml';
 
-declare var Prism: any;
+let Prism: any;
 
 @Injectable()
 export class PrismService {

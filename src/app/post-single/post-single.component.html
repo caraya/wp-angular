@@ -1,0 +1,8 @@
+<article class="post">
+  <h1>{{post.title.rendered}}</h1>
+
+  <section class="content" [innerHTML]="post.content.rendered | safe: 'html'"></section>
+
+
+</article>
+
