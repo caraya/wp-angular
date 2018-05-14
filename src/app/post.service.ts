@@ -15,13 +15,14 @@ export class PostService {
 
   constructor(private http: HttpClient) {}
 
-  getPosts<T>() {
+  getPosts<Any>() {
     return this.http.get(this.postsUrl + '?_embed');
   }
 
-
-
-  getPost<T>(slug: any) {
+  getPost<Number>(id) {
+    return this.http.get(`${this.postsUrl}/${id}?_embed`);
+  }
+  getPostBySlug<Any>(slug) {
     return this.http.get(`${this.postsUrl}/${slug}?_embed`);
   }
 }

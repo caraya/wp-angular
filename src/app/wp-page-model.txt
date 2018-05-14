@@ -1,0 +1,321 @@
+[{
+	"id": 787015,
+	"date": "2015-11-02T08:59:35",
+	"date_gmt": "2015-11-02T15:59:35",
+	"guid": {
+		"rendered": "http:\/\/publishing-project.rivendellweb.net\/?page_id=787015"
+	},
+	"modified": "2016-03-27T20:59:18",
+	"modified_gmt": "2016-03-28T03:59:18",
+	"slug": "now",
+	"status": "publish",
+	"type": "page",
+	"link": "https:\/\/publishing-project.rivendellweb.net\/now\/",
+	"title": {
+		"rendered": "Now"
+	},
+	"content": {
+		"rendered": "<h1>What I&#8217;m working on now<\/h1>\n<p>Look at <a href=\"http:\/\/sivers.org\/nowff\">this page<\/a> to understand the purpose of this page<\/p>\n<p><strong>Last updated 3\/27\/2016<\/strong><\/p>\n<ul>\n<li>Writing\n<ul>\n<li>The other side of offline: Client Side Storage\n<ul>\n<li>Sample code<\/li>\n<\/ul>\n<\/li>\n<li>My take on cutting the mustard<\/li>\n<li>Publishing in the digital age<\/li>\n<li><del datetime=\"2015-11-01T03:44:04+00:00\">Web Content Optimization blog series\n<ul>\n<li>Sample Code<\/li>\n<\/ul>\n<p><\/del><\/li>\n<\/ul>\n<\/li>\n<li>Application Shell and Service Workers\n<ul>\n<li>How it relates to Athena<\/li>\n<\/ul>\n<\/li>\n<li>Prollyfilling CSS Today<\/li>\n<li>Adding semantics to your HTML<\/li>\n<li>Why Performance Matters<\/li>\n<li>Accessibility and Beyond<\/li>\n<li>xQuery: Building XML Aware Web Content<\/li>\n<\/ul>\n<li>Building Apps with Web Components\n<ul>\n<li>Idea for a book<\/li>\n<li>Outline and some writing<\/li>\n<\/ul>\n<\/li>\n<li>Athena editor\n<ul>\n<li>Learning how Polymer Designer works and how to pipe in attributes into the tool\n<ul>\n<li>Designer is not ready for primetime and it doesn&#8217;t appear to be a priority for the team at Google<\/li>\n<li>It may be possible to use but it&#8217;ll be much harder than expected<\/li>\n<\/ul>\n<\/li>\n<li>Implementing Athena Components\n<ul>\n<li>First batch created, pushed to github and bower registry<\/li>\n<\/ul>\n<\/li>\n<\/ul>\n<\/li>\n<li><del datetime=\"2016-03-28T00:35:02+00:00\">GPL and the issues I have with it<\/del><\/li>\n<li>Learning Tableau\n<ul>\n<li>Find datasets for Dashboards and Visualization<\/li>\n<li>Build exploratory dashboards<\/li>\n<li><del datetime=\"2016-03-28T00:35:02+00:00\"> Get Cole&#8217;s book on data viz<\/del><\/li>\n<\/ul>\n<\/li>\n",
+		"protected": false
+	},
+	"excerpt": {
+		"rendered": "<p>What I&#8217;m working on now Look at this page to understand the purpose of this page Last updated 3\/27\/2016 Writing The other side of offline: Client Side Storage Sample code My take on cutting the mustard Publishing in the digital age Web Content Optimization blog series Sample Code Application Shell and Service Workers How it &hellip; <\/p>\n<p class=\"link-more\"><a href=\"https:\/\/publishing-project.rivendellweb.net\/now\/\" class=\"more-link\">Continue reading<span class=\"screen-reader-text\"> &#8220;Now&#8221;<\/span><\/a><\/p>\n",
+		"protected": false
+	},
+	"author": 1,
+	"featured_media": 0,
+	"parent": 0,
+	"menu_order": 0,
+	"comment_status": "closed",
+	"ping_status": "closed",
+	"template": "",
+	"meta": {
+		"amp_status": ""
+	},
+	"_links": {
+		"self": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages\/787015"
+		}],
+		"collection": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages"
+		}],
+		"about": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/types\/page"
+		}],
+		"author": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/users\/1"
+		}],
+		"replies": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/comments?post=787015"
+		}],
+		"version-history": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages\/787015\/revisions"
+		}],
+		"wp:attachment": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/media?parent=787015"
+		}],
+		"curies": [{
+			"name": "wp",
+			"href": "https:\/\/api.w.org\/{rel}",
+			"templated": true
+		}]
+	}
+}, {
+	"id": 295969,
+	"date": "2014-08-22T16:09:34",
+	"date_gmt": "2014-08-22T23:09:34",
+	"guid": {
+		"rendered": "http:\/\/publishing-project.rivendellweb.net\/?page_id=295969"
+	},
+	"modified": "2014-08-22T16:25:39",
+	"modified_gmt": "2014-08-22T23:25:39",
+	"slug": "portfolio",
+	"status": "publish",
+	"type": "page",
+	"link": "https:\/\/publishing-project.rivendellweb.net\/portfolio\/",
+	"title": {
+		"rendered": "Portfolio"
+	},
+	"content": {
+		"rendered": "<p>[portfolio display_types=false display_tags=false include_type=all columns=3 showposts=9]<\/p>\n",
+		"protected": false
+	},
+	"excerpt": {
+		"rendered": "<p>[portfolio display_types=false display_tags=false include_type=all columns=3 showposts=9]<\/p>\n",
+		"protected": false
+	},
+	"author": 1,
+	"featured_media": 0,
+	"parent": 0,
+	"menu_order": 0,
+	"comment_status": "open",
+	"ping_status": "open",
+	"template": "",
+	"meta": {
+		"amp_status": ""
+	},
+	"_links": {
+		"self": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages\/295969"
+		}],
+		"collection": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages"
+		}],
+		"about": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/types\/page"
+		}],
+		"author": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/users\/1"
+		}],
+		"replies": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/comments?post=295969"
+		}],
+		"version-history": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages\/295969\/revisions"
+		}],
+		"wp:attachment": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/media?parent=295969"
+		}],
+		"curies": [{
+			"name": "wp",
+			"href": "https:\/\/api.w.org\/{rel}",
+			"templated": true
+		}]
+	}
+}, {
+	"id": 66657,
+	"date": "2013-11-22T13:41:35",
+	"date_gmt": "2013-11-22T20:41:35",
+	"guid": {
+		"rendered": "http:\/\/publishing-project.rivendellweb.net\/?page_id=66657"
+	},
+	"modified": "2013-11-27T19:36:39",
+	"modified_gmt": "2013-11-28T02:36:39",
+	"slug": "links",
+	"status": "publish",
+	"type": "page",
+	"link": "https:\/\/publishing-project.rivendellweb.net\/links\/",
+	"title": {
+		"rendered": "Links"
+	},
+	"content": {
+		"rendered": "<h2>What it is<\/h2>\n<p>Currently just a list of resources and tools. As I have more time I will flesh out the resources with descriptions and background.<\/p>\n<h2>First Time Front End Developer<\/h2>\n<ul>\n<li><a href=\"http:\/\/fixingthesejquery.com\/\">Fixing these jQuery<\/a><\/li>\n<li><a href=\"https:\/\/developers.google.com\/chrome-developer-tools\/docs\/javascript-debugging\">Debugging JavaScript<\/a> by Google<\/li>\n<li><a href=\"http:\/\/rmurphey.com\/blog\/2012\/04\/12\/a-baseline-for-front-end-developers\/\">A baseline for front end developers<\/a> by Rebecca Murphey<\/li>\n<li><a href=\"https:\/\/github.com\/darcyclarke\/Front-end-Developer-Interview-Questions\">Front end developer interview questions<\/a><\/li>\n<li><a href=\"https:\/\/help.github.com\/articles\/using-pull-requests\">Using pull requests<\/a><\/li>\n<li><a href=\"http:\/\/git-scm.com\/book\/en\/Git-Branching-Branching-Workflows\">Git branching workflows<\/a><\/li>\n<li><a href=\"http:\/\/blog.mozilla.org\/webdev\/2011\/11\/21\/git-using-topic-branches-and-interactive-rebasing-effectively\/\">Git: Using topic branches and interactive rebasing effectively<\/a> from Mozilla Webdev blog<\/li>\n<\/ul>\n<h2>Boilerplates and templates<\/h2>\n<ul>\n<li><a href=\"https:\/\/github.com\/backbone-boilerplate\/backbone-boilerplate\">Backbone Boilerplate<\/a><\/li>\n<li><a href=\"http:\/\/html5boilerplate.com\/\">http:\/\/html5boilerplate.com\/<\/a><\/li>\n<li><a href=\"http:\/\/getbootstrap.com\/\">Bootstrap<\/a><\/li>\n<li><a href=\"http:\/\/foundation.zurb.com\/\">Zurb Foundation<\/a><\/li>\n<\/ul>\n<h2>Daily web intake<\/h2>\n<ul>\n<li><a href=\"http:\/\/peter.sh\/\">Peter Beverloo\u2019s Blog<\/a> (weekly updates of WebKit and Chrome)<\/li>\n<li><a href=\"http:\/\/blog.whatwg.org\/\">The WHATWG Blog<\/a>(summaries of weekly web standards activity)<\/li>\n<li><a href=\"http:\/\/www.w3.org\/QA\/archive\/open_web\/\">W3C&#8217;s open web<\/a>(weekly updates about the Open Web Platform)<\/li>\n<li><a href=\"http:\/\/my.opera.com\/ODIN\/blog\/\">Opera Developer News<\/a> (tracks changes to Opera&#8217;s web platform)<\/li>\n<li><a href=\"http:\/\/updates.html5rocks.com\">HTML5 Rocks updates<\/a> (HTML5 and Chrome breaking news)<\/li>\n<li><a href=\"http:\/\/hacks.mozilla.org\/\">Mozilla Hacks<\/a> (cool apps and HTML5 features)<\/li>\n<li><a href=\"http:\/\/blogs.msdn.com\/b\/ie\/\">IE Blog<\/a> (updates for IE)<\/li>\n<\/ul>\n<h2>JavaScript and Coffeescript<\/h2>\n<ul>\n<li><a href=\"http:\/\/coffeescript.org\/\">http:\/\/coffeescript.org\/<\/a><\/li>\n<li><a href=\"http:\/\/coffeescriptcookbook.com\/\">http:\/\/coffeescriptcookbook.com\/<\/a><\/li>\n<li><a href=\"http:\/\/jquery.com\/\">http:\/\/jquery.com\/<\/a><\/li>\n<li><a href=\"http:\/\/jqueryui.com\/\">http:\/\/jqueryui.com\/<\/a><\/li>\n<li><a href=\"http:\/\/dojotoolkit.org\/\">http:\/\/dojotoolkit.org\/<\/a><\/li>\n<li><a href=\"http:\/\/yuilibrary.com\/\">http:\/\/yuilibrary.com\/<\/a><\/li>\n<li><a href=\"http:\/\/leaverou.github.io\/prefixfree\/\">Prefix Free<\/a> (Even though it works with CSS, it is a JavaScript library)<\/li>\n<\/ul>\n<h2>Node JS<\/h2>\n<ul>\n<li><a href=\"http:\/\/nodejs.org\">http:\/\/nodejs.org<\/a><\/li>\n<\/ul>\n<h2>Package and dependency management<\/h2>\n<ul>\n<li><a href=\"http:\/\/yeoman.io\/\">yeoman<\/a><\/li>\n<li><a href=\"http:\/\/bower.io\/\">Bower<\/a><\/li>\n<li><a href=\"http:\/\/gruntjs.com\/\">Gruntjs<\/a><\/li>\n<\/ul>\n<h2>CSS<\/h2>\n<ul>\n<li><a href=\"http:\/\/cubic-bezier.com\/\">http:\/\/cubic-bezier.com\/<\/a><\/li>\n<li><a href=\"http:\/\/sass-lang.com\">http:\/\/sass-lang.com<\/a><\/li>\n<li><a href=\"http:\/\/compass-style.org\/\">Compass CSS Framework<\/a><\/li>\n<\/ul>\n<h2>Typography<\/h2>\n<ul>\n<li><a href=\"http:\/\/typeplate.com\/\">http:\/\/typeplate.com\/<\/a><\/li>\n<li><a href=\"http:\/\/webtypography.net\/\">http:\/\/webtypography.net\/<\/a><\/li>\n<li><a href=\"http:\/\/alistapart.com\/article\/on-web-typography\">http:\/\/alistapart.com\/article\/on-web-typography<\/a><\/li>\n<li><a href=\"http:\/\/www.smashingmagazine.com\/2013\/08\/06\/beautiful-typography-web-design\/\">http:\/\/www.smashingmagazine.com\/2013\/08\/06\/beautiful-typography-web-design\/<\/a><\/li>\n<\/ul>\n<h2>Code and Demo Sharing<\/h2>\n<ul>\n<li><a href=\"http:\/\/codepen.io\/\">http:\/\/codepen.io\/<\/a><\/li>\n<li><a href=\"http:\/\/jsbin.com\/\">http:\/\/jsbin.com\/<\/a><\/li>\n<li><a href=\"http:\/\/jsfidle.net\/\">http:\/\/jsfidle.net\/<\/a><\/li>\n<\/ul>\n<h2>Data Visualization<\/h2>\n<ul>\n<li><a href=\"http:\/\/d3js.org\/\">http:\/\/d3js.org\/<\/a><\/li>\n<li><a href=\"http:\/\/teczno.com\/squares\/#12\/37.8043\/-122.2712\">Get Lat\/Lon to work with GeoJason data<\/a><\/li>\n<\/ul>\n<h2>3D Modeling<\/h2>\n<ul>\n<li><a href=\"http:\/\/threejs.org\/\">http:\/\/threejs.org\/<\/a><\/li>\n<li><a href=\"https:\/\/github.com\/mrdoob\/three.js\">Github repository for Three.js<\/a><\/li>\n<li><a href=\"https:\/\/gist.github.com\/paulirish\/1579671#file-raf-js-L14\">Paul Irish&#8217;s requestAnimationFrame pollyfill<\/a><\/li>\n<li><a href=\"http:\/\/www.aerotwist.com\/tutorials\/getting-started-with-three-js\/\">Getting Started with Three JS<\/a><\/li>\n<li><a href=\"http:\/\/www.aerotwist.com\/tutorials\/\">More ThreeJS tutorials<\/a><\/li>\n<li><a href=\"http:\/\/www.html5rocks.com\/en\/tutorials\/casestudies\/hobbit\/\">The Hobbit 3D experience case study<\/a><\/li>\n<\/ul>\n<h2>HTML5 video<\/h2>\n<ul>\n<li><a href=\"http:\/\/www.html5rocks.com\/en\/tutorials\/video\/basics\/\">One of the best introductions to HTML5 video I&#8217;ve seen<\/a><\/li>\n<li><a href=\"http:\/\/diveintohtml5.info\/video.html\">Dive into HTML5 chapter on video<\/a><\/li>\n<li><a href=\"http:\/\/www.w3.org\/2010\/05\/video\/mediaevents.html\">A good demo and overview of video events and APIs<\/a><\/li>\n<\/ul>\n<h2>XML-Based Structured Documentation<\/h2>\n<ul>\n<li><a href=\"http:\/\/docbook.org\/\">Docbook<\/a><\/li>\n<li><a href=\"http:\/\/docbook.sourceforge.net\/\">Docbook XSL Stylesheets<\/a><\/li>\n<li><a href=\"http:\/\/dita.xml.org\/\">DITA<\/a><\/li>\n<li><a href=\"http:\/\/www.ibm.com\/developerworks\/library\/x-dita1\/\">Introductory Article on DITA<\/a><\/li>\n<li><a href=\"http:\/\/dita-ot.github.io\/\">DITA Toolkit<\/a><\/li>\n<li><a href=\"http:\/\/dita-ot.sourceforge.net\/doc\/ot-userguide\/xhtml\/\">DITA Toolkit User Guide<\/a><\/li>\n<\/ul>\n",
+		"protected": false
+	},
+	"excerpt": {
+		"rendered": "<p>What it is Currently just a list of resources and tools. As I have more time I will flesh out the resources with descriptions and background. First Time Front End Developer Fixing these jQuery Debugging JavaScript by Google A baseline for front end developers by Rebecca Murphey Front end developer interview questions Using pull requests &hellip; <\/p>\n<p class=\"link-more\"><a href=\"https:\/\/publishing-project.rivendellweb.net\/links\/\" class=\"more-link\">Continue reading<span class=\"screen-reader-text\"> &#8220;Links&#8221;<\/span><\/a><\/p>\n",
+		"protected": false
+	},
+	"author": 1,
+	"featured_media": 0,
+	"parent": 0,
+	"menu_order": 0,
+	"comment_status": "open",
+	"ping_status": "open",
+	"template": "page-full-width.php",
+	"meta": {
+		"amp_status": ""
+	},
+	"_links": {
+		"self": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages\/66657"
+		}],
+		"collection": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages"
+		}],
+		"about": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/types\/page"
+		}],
+		"author": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/users\/1"
+		}],
+		"replies": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/comments?post=66657"
+		}],
+		"version-history": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages\/66657\/revisions"
+		}],
+		"wp:attachment": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/media?parent=66657"
+		}],
+		"curies": [{
+			"name": "wp",
+			"href": "https:\/\/api.w.org\/{rel}",
+			"templated": true
+		}]
+	}
+}, {
+	"id": 1156,
+	"date": "2013-07-23T12:19:03",
+	"date_gmt": "2013-07-23T19:19:03",
+	"guid": {
+		"rendered": "http:\/\/publishing-project.rivendellweb.net\/?page_id=1156"
+	},
+	"modified": "2014-08-03T19:04:40",
+	"modified_gmt": "2014-08-04T02:04:40",
+	"slug": "links-and-resources",
+	"status": "publish",
+	"type": "page",
+	"link": "https:\/\/publishing-project.rivendellweb.net\/links-and-resources\/",
+	"title": {
+		"rendered": "Contact Carlos"
+	},
+	"content": {
+		"rendered": "<p>Contact form has been removed due to spam<br \/>\n<!--\n[contact-form subject='[Publishing Project New Contact Form Submission'][contact-field label='Name' type='text' required='1'\/][contact-field label='Email' type='text'\/][contact-field label='Website' type='url'\/][contact-field label='Comment \/ Question' type='textarea'\/][\/contact-form] \n--><\/p>\n",
+		"protected": false
+	},
+	"excerpt": {
+		"rendered": "<p>Contact form has been removed due to spam<\/p>\n",
+		"protected": false
+	},
+	"author": 1,
+	"featured_media": 0,
+	"parent": 0,
+	"menu_order": 0,
+	"comment_status": "closed",
+	"ping_status": "open",
+	"template": "",
+	"meta": {
+		"amp_status": ""
+	},
+	"_links": {
+		"self": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages\/1156"
+		}],
+		"collection": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages"
+		}],
+		"about": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/types\/page"
+		}],
+		"author": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/users\/1"
+		}],
+		"replies": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/comments?post=1156"
+		}],
+		"version-history": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages\/1156\/revisions"
+		}],
+		"wp:attachment": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/media?parent=1156"
+		}],
+		"curies": [{
+			"name": "wp",
+			"href": "https:\/\/api.w.org\/{rel}",
+			"templated": true
+		}]
+	}
+}, {
+	"id": 1154,
+	"date": "2013-07-23T11:58:39",
+	"date_gmt": "2013-07-23T18:58:39",
+	"guid": {
+		"rendered": "http:\/\/publishing-project.rivendellweb.net\/?page_id=1154"
+	},
+	"modified": "2017-10-13T08:00:18",
+	"modified_gmt": "2017-10-13T15:00:18",
+	"slug": "about-the-publishing-project",
+	"status": "publish",
+	"type": "page",
+	"link": "https:\/\/publishing-project.rivendellweb.net\/about-the-publishing-project\/",
+	"title": {
+		"rendered": "About"
+	},
+	"content": {
+		"rendered": "<h1>About The Publishing Project<\/h1>\n<p>Over the past few years my interest has turned into ebooks and digital publishing. I first became interested in ebooks as part of my research into <a href=\"http:\/\/bit.ly\/16QThtd\">Docbook-based<\/a> digital content creation toolset.<\/p>\n<p>Docbook has always been my favorite authoring tool and it still one of my preferred tools for documentation but the more I dived into ePub publishing the more I realized that while Docbook can create multiple formats from the same source XML document, the ePub and HTML functionality is geared for technical documentation and, limited, non-technical publishing; which requires a new set of source documents with different interpretations of the XML tags I was already familiar with.<\/p>\n<p>I stopped looking at digital publishing for a couple years. I was too busy working in Instructional Design and moving cross country and back to pay much attention to researching and learning about ebooks. While in Georgia I met <a href=\"http:\/\/bit.ly\/19aokA4\">Dr. Frank Lowney<\/a> whose research interest was how to leverage e-books in higher education.<\/p>\n<p>Dr. Lowney&#8217;s interest in the content creation and publishing process rekindled mine. I looked at the different tools and technologies and how we could best leverage them.<\/p>\n<p>The first question I asked was whether we should limit this ability to create content to teachers and higher education. The answer, obvious to me, is no. We can all create and publish digital content.<\/p>\n<p>As I moved in my research the questions changed. From who should create content to how do we make content creation easier and how do we distribute it in a world where digital technologies have become more mobile and more fragmented to exploring ways in which we can leverage digital tools and technologies to make content more engaging and interactive<\/p>\n<p>These have been the question on my mind for the last few months. The big question sums up like this: Can we build a community around digital content like we do with print media. Can we recreate the reading circle or the casual conversation about our content in the digital medium? How do we build relationships around our digital content just as we do with our printed media?<\/p>\n<h2>How does digital changes publishing?<\/h2>\n<p>I&#8217;ve been researching the convergence of different publishing technologies for the last 3 years. I&#8217;ve become proficient with reflowable ebooks, Kindle format books and now I&#8217;m working with fixed layout and read aloud books yet the more I work in ebook creation the more I realized that I&#8217;m asking the wrong questions.<\/p>\n<p>Rather than thinking about how to cram content into a container and release it to the world we need to think how does the digital environment affect the container, the content, the tools and the publishing process.<\/p>\n<p>Technology also opens other possibilities for publishing content like <a href=\"http:\/\/bit.ly\/194OxFX\">Apple&#8217;s Newsstand<\/a> and its <a href=\"http:\/\/bit.ly\/179OWV4\">Google Play<\/a> equivalent where we can serialize content.<\/p>\n<h2>two approaches to digital content<\/h2>\n<p>For those of us old enough to remember, <a href=\"http:\/\/bit.ly\/1h9PFam\">Microsoft Encarta<\/a> (published from 1993 to 2009) was an early attempt at a multimedia encyclopedia. All the information fit in a CD-ROM and was repetitive and even the interactive features it had were of limited use.<\/p>\n<p><a href=\"http:\/\/bit.ly\/1fwfO82\">Wikipedia<\/a> took a different approach when it first launched. Rather than asking how can we put an encyclopedia into digital form, they asked how can we best leverage digital technologies to make a different and better kind of encyclopedia.<\/p>\n<p>So, which answer do we pick? Do we choose our publishing tools to be like Encarta or Wikipedia?<\/p>\n<p>The essays and resources on this site seek to explore possible answers to this question and present different options to deliver digital content to diverse digital audiences.<\/p>\n",
+		"protected": false
+	},
+	"excerpt": {
+		"rendered": "<p>About The Publishing Project Over the past few years my interest has turned into ebooks and digital publishing. I first became interested in ebooks as part of my research into Docbook-based digital content creation toolset. Docbook has always been my favorite authoring tool and it still one of my preferred tools for documentation but the &hellip; <\/p>\n<p class=\"link-more\"><a href=\"https:\/\/publishing-project.rivendellweb.net\/about-the-publishing-project\/\" class=\"more-link\">Continue reading<span class=\"screen-reader-text\"> &#8220;About&#8221;<\/span><\/a><\/p>\n",
+		"protected": false
+	},
+	"author": 1,
+	"featured_media": 0,
+	"parent": 0,
+	"menu_order": 0,
+	"comment_status": "closed",
+	"ping_status": "closed",
+	"template": "",
+	"meta": {
+		"amp_status": ""
+	},
+	"_links": {
+		"self": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages\/1154"
+		}],
+		"collection": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages"
+		}],
+		"about": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/types\/page"
+		}],
+		"author": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/users\/1"
+		}],
+		"replies": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/comments?post=1154"
+		}],
+		"version-history": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/pages\/1154\/revisions"
+		}],
+		"wp:attachment": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/media?parent=1154"
+		}],
+		"curies": [{
+			"name": "wp",
+			"href": "https:\/\/api.w.org\/{rel}",
+			"templated": true
+		}]
+	}
+}]

@@ -1,7 +1,7 @@
 import { Component, OnInit, Injectable } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import { PostService } from '../post.service';
-
+import { switchMap } from 'rxjs/operators';
 @Component({
   selector: 'post-single',
   templateUrl: './post-single.component.html',
@@ -19,24 +19,27 @@ export class PostSingleComponent implements OnInit {
     private _postService: PostService,
     private route: ActivatedRoute
   ) {
-    console.log('In constructor:', this.route.params);
+    // console.log('In constructor:', this.route.params);
   }
 
   ngOnInit() {
-    this.getPost(this.route.params + "?_embed");
-    // console.log('On Init', this.route.params);
-    // console.log(this.route.params.value.id)
+    this.getPost(this.route + "?_embed");
   }
 
   getPost(id) {
-    this._postService
-      .getPost(this.route.params.value.id)
-      .subscribe(
-        data => {
-          this.post = data;
-        },
-        err => console.error(err),
-        () => console.log(this.post)
-      );
+    this.route.params.pipe(
+      switchMap(params => this._postService.getPost(params.id))
+    )
+    .subscribe(
+      data => {
+        this.post = data;
+      },
+      err => console.error(err),
+      () => {
+        console.log(this.post.slug);
+        console.log('On Post, params: ', this.route.params);
+        console.log('On Post, fragment: ', this.route.fragment);
+      }
+    );
   }
 }

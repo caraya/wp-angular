@@ -1,0 +1,76 @@
+[{
+	"id": 788658,
+	"date": "2018-05-02T11:30:29",
+	"date_gmt": "2018-05-02T18:30:29",
+	"guid": {
+		"rendered": "http:\/\/publishing-project.rivendellweb.net\/?p=788658"
+	},
+	"modified": "2018-04-10T20:31:27",
+	"modified_gmt": "2018-04-11T03:31:27",
+	"slug": "quick-note-using-details-to-create-no-script-accordions",
+	"status": "publish",
+	"type": "post",
+	"link": "https:\/\/publishing-project.rivendellweb.net\/quick-note-using-details-to-create-no-script-accordions\/",
+	"title": {
+		"rendered": "Quick Note: Using details to create no-script accordions"
+	},
+	"content": {
+		"rendered": "<p><!-- wp:paragraph --><\/p>\n<p><strong><em>Hat Tip to : <a href=\"https:\/\/css-tricks.com\/quick-reminder-that-details-summary-is-the-easiest-way-ever-to-make-an-accordion\/\">CSS Tricks<\/a>.<\/em><\/strong><\/p>\n<p><!-- \/wp:paragraph --><\/p>\n<p><!-- wp:paragraph --><\/p>\n<p>An accordion is a UX element to group related items like Frequently asked questions. Most libraries give you a way to create accordions. But there is an easier way to accomplish the same goal, use the <code>details<\/code> and <code>summary<\/code> elements.<\/p>\n<p><!-- \/wp:paragraph --><\/p>\n<p><!-- wp:paragraph --><\/p>\n<p>The <a href=\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Element\/details\">details<\/a> element creates a disclosure widget where information is visible only in its &#8220;open&#8221; state. A summary or label can be provided using the <code>&lt;summary><\/code> element.<\/p>",
+		"protected": false
+	},
+	"excerpt": {
+		"rendered": "<p>Hat Tip to : CSS Tricks. An accordion is a UX element to group related items like Frequently asked questions. Most libraries give you a way to create accordions. But there is an easier way to accomplish the same goal, use the details and summary elements. The details element creates a disclosure widget where information &hellip; <\/p>\n<p class=\"link-more\"><a href=\"https:\/\/publishing-project.rivendellweb.net\/quick-note-using-details-to-create-no-script-accordions\/\" class=\"more-link\">Continue reading<span class=\"screen-reader-text\"> &#8220;Quick Note: Using details to create no-script accordions&#8221;<\/span><\/a><\/p>\n",
+		"protected": false
+	},
+	"author": 1,
+	"featured_media": 0,
+	"comment_status": "closed",
+	"ping_status": "closed",
+	"sticky": false,
+	"template": "",
+	"format": "standard",
+	"meta": {
+		"amp_status": ""
+	},
+	"categories": [1],
+	"tags": [],
+	"_links": {
+		"self": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/posts\/788658"
+		}],
+		"collection": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/posts"
+		}],
+		"about": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/types\/post"
+		}],
+		"author": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/users\/1"
+		}],
+		"replies": [{
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/comments?post=788658"
+		}],
+		"version-history": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/posts\/788658\/revisions"
+		}],
+		"wp:attachment": [{
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/media?parent=788658"
+		}],
+		"wp:term": [{
+			"taxonomy": "category",
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/categories?post=788658"
+		}, {
+			"taxonomy": "post_tag",
+			"embeddable": true,
+			"href": "https:\/\/publishing-project.rivendellweb.net\/wp-json\/wp\/v2\/tags?post=788658"
+		}],
+		"curies": [{
+			"name": "wp",
+			"href": "https:\/\/api.w.org\/{rel}",
+			"templated": true
+		}]
+	}
+}]
